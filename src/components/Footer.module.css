@@ -1,0 +1,29 @@
+.footer {
+  background: #020617;
+  padding: 18px;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 14px;
+  position: relative;
+}
+
+/* Top divider glow */
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 40%;
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(to right, transparent, #16a34a, transparent);
+}
+
+/* Hover subtle effect */
+.footer p {
+  transition: 0.3s;
+}
+
+.footer p:hover {
+  color: #e2e8f0;
+}

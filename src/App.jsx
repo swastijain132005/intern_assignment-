@@ -1,0 +1,28 @@
+import Hero from './components/hero';
+import Features from './components/features';
+import WhyVibo from './components/WhyVibo';
+import Dashboard from './components/Dashboard';
+import Whatsapp from './components/Whatsapp';
+import CTA from './components/CTA';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+
+function App() {
+
+  return (
+    <>
+      <Navbar />
+
+
+      <Hero />
+      <Features />
+      <WhyVibo />
+      <Dashboard />
+      <Whatsapp />
+      <CTA />
+      <Footer />
+    </>
+  )
+}
+
+export default App;

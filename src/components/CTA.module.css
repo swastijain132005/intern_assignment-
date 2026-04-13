@@ -1,0 +1,72 @@
+.cta {
+  padding: 70px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #ecfdf5, #f0fdf4);
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Heading (FIXED contrast) */
+.cta h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;   /* 🔥 FIX */
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.cta p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #4b5563;   /* better than black */
+}
+
+/* Buttons wrapper */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Primary button */
+.primaryBtn {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  color: white;
+  padding: 12px 26px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(22, 163, 74, 0.3);
+}
+
+/* Secondary button (FIXED visibility) */
+.secondaryBtn {
+  background: transparent;
+  border: 1px solid #16a34a;   /* 🔥 FIX */
+  color: #16a34a;              /* 🔥 FIX */
+  padding: 12px 26px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.secondaryBtn:hover {
+  background: #ecfdf5;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
