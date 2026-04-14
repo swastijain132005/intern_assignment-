@@ -1,4 +1,4 @@
-import Hero from '. /components/Hero';
+import Hero from './components/Hero';
 import Features from './components/Features';
 import WhyVibo from './components/WhyVibo';
 import Dashboard from './components/Dashboard';
