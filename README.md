@@ -3,7 +3,7 @@
 A modern, responsive landing page for **Vibo ERP**, a cloud-based ERP solution designed for fruit & vegetable wholesalers and traders.
 
 ## 🚀 Live Demo
-👉 [Add your deployed link here]
+👉 https://intern-assignment-tn9e.vercel.app/
 
 ---
 
