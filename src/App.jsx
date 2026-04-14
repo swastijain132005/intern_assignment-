@@ -1,5 +1,5 @@
-import Hero from './components/hero';
-import Features from './components/features';
+import Hero from '. /components/Hero';
+import Features from './components/Features';
 import WhyVibo from './components/WhyVibo';
 import Dashboard from './components/Dashboard';
 import Whatsapp from './components/Whatsapp';
